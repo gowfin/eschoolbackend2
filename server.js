@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://gowfin.github.io','https://cbt.ohafiamicrofinancebankplc.com','https://cbt.blessedwomenprogressiveinitiative.com.ng',http://cbt.blessedwomenprogressiveinitiative.com.ng']
+    origin: ['http://localhost:3000', 'https://gowfin.github.io','https://cbt.ohafiamicrofinancebankplc.com','https://cbt.blessedwomenprogressiveinitiative.com.ng','http://cbt.blessedwomenprogressiveinitiative.com.ng']
 }));
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true }));
